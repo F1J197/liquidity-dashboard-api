@@ -1,5 +1,3 @@
-// api/fred.js
-
 export default async function handler(req, res) {
   const { series_id, start_date, end_date } = req.query;
   const apiKey = process.env.FRED_API_KEY;
